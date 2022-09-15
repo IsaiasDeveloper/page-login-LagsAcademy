@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page InLags Academy</title>
+    <!-- Google fonts - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+    <div id="loginPage">
+        <div id="container">
+            <div id="boxImgLogo">
+                <img src="https://wing.com.br/Loja/Imagens/logoinlags1882022115215798.png" alt="Logo InLags Academy" />
+            </div>
+            <!-- Formulário Login -->
+            <div id="formularioLogin" class="formularios">
+                <div class="inputsForm">
+                    <input type="email" id="txtLogin" placeholder="Digite seu e-mail" />
+                </div>
+                <div class="inputsForm">
+                    <input type="password" id="txtSenha" placeholder="Digite sua senha" />
+                </div>
+                <p class="links" id="esqueceuSenha">Esqueceu sua senha?</p>
+                <button class="btnsForm" id="btnLogin">ENTRAR</button>
+                <div id="msgLogin" class="mensagensErro"></div>
+                <p class="links" id="primeiroAcesso">Meu primeiro acesso</p>
+            </div>
+            <!-- Formulário Primeiro Acesso -->
+            <div id="formularioPrimieroAcesso" class="formularios">
+                <p class="titulosForm">
+                    Meu primeiro acesso. <br /> Avite sua chave.
+                </p>
+                <div class="inputsForm">
+                    <input type="text" id="txtChave" placeholder="Digite sua chave" />
+                </div>
+                <button id="btnChave" class="btnsForm">ATIVAR CHAVE</button>
+                <div id="msgChave" class="mensagensErros"></div>
+                <p class="links" id="voltarPrimeiroAcesPraInicio">← Voltar</p>
+            </div>
+            <!-- Formulário Recuperar senha -->
+            <div id="formularioRecSenha" class="formularios">
+                <p class="titulosForm">Recuperar senha</p>
+                <div class="inputsForm">
+                    <input type="text" id="Login" placeholder="Informe o Seu Login" />
+                </div>
+                <div class="inputsForm">
+                    <input type="text" id="txtEmailRec" placeholder="OU Informe o Seu E-mail " />
+                </div>
+                <button id="btnRec" class="btnsForm">RECUPERAR SENHA</button>
+                <div class="mensagensErro" id="msgRec"></div>
+                <p class="links" id="voltarRecupSenhaPraInicio">← Voltar</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'Arial';
+}
+
+#loginPage {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://wing.com.br/Loja/Imagens/loginbackground1920x1080188202295447432.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxImgLogo {
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+#boxImgLogo img {
+    width: 100%;
+}
+
+.formularios {
+    width: 70%;
+    margin: auto;
+}
+
+.inputsForm {
+    width: 100%;
+}
+
+.inputsForm input {
+    width: 98%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: 0;
+    height: 35px;
+    margin-bottom: 13px;
+    color: #c7c3c3;
+    letter-spacing: 1px;
+}
+
+.inputsForm input::placeholder {
+    color: #c7c3c3;
+}
+
+.links {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.links:active {
+    color: rgb(108, 97, 97);
+}
+
+#esqueceuSenha {
+    text-align: right;
+}
+
+#primeiroAcesso {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 25px;
+    font-size: 17px;
+}
+
+.btnsForm {
+    width: 99%;
+    height: 45px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #0098da;
+    cursor: pointer;
+}
+
+.btnsForm:active {
+    background-color: #0a709b;
+}
+
+.titulosForm {
+    text-align: center;
+    line-height: 24px;
+}
+
+#formularioPrimieroAcesso,
+#formularioRecSenha {
+    display: none;
+}
+
+
+/* Medias Queries */
+
+@media (min-width: 1601px) {
+    #loginPage {
+        background-image: url('https://wing.com.br/Loja/Imagens/loginbackground1920x1080188202295447432.png');
+    }
+}
+
+@media (max-width: 1600px) {
+    #loginPage {
+        background-image: url('https://wing.com.br/Loja/Imagens/loginbackground1600x1080188202295511495.png');
+    }
+}
+
+@media (max-width: 1400px) {
+    #loginPage {
+        background-image: url('https://wing.com.br/Loja/Imagens/loginbackground1400x1080188202295529524.png');
+    }
+}
+
+@media (max-width: 1200px) {
+    #loginPage {
+        background-image: url('https://wing.com.br/Loja/Imagens/loginbackground1200x1080188202295546560.png');
+    }
+}
+
+@media (max-width: 992px) {
+    #loginPage {
+        background-image: url('https://wing.com.br/Loja/Imagens/loginbackground992x1060188202295621286.png');
+    }
+}
+
+@media (max-width: 768px) {
+    #loginPage {
+        background-image: url('https://wing.com.br/Loja/Imagens/loginbackground768x1060188202295641215.png');
+    }
+}
+
+@media (max-width: 576px) {
+    #loginPage {
+        background-image: url('https://wing.com.br/Loja/Imagens/loginbackground576x105018820229572300.png');
+    }
+    #container {
+        width: 95%;
+    }
+    .formularios {
+        width: 85%;
+    }
+    #boxImgLogo {
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #boxImgLogo img {
+        width: 140%;
+    }
+}
